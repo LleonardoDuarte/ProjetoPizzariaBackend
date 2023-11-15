@@ -8,6 +8,11 @@
 - yarn add ts-node-dev -D (criar o script no package.json)
 - yarn add express-async-errors (script erro)
 - yarn add cors / yarn add @types/cors -D (liberar para qualquer ip realizar a requisição)
+- yarn add prisma / yarn add @prisma/client / npx prisma init
+- yarn add bcryptjs / yarn add @types/bcryptjs -D (criptografar senhas)
+- yarn add jsonwebtoken / yarn add @types/jsonwebtoken -D (autenticar usuario)
+- yarn add dotenv
+- yarn add multer / yarn add @types/multer -D (configurar envio da imagem)
 -
 -
 -
@@ -37,15 +42,12 @@
 -
 -
 -
--
--
--
--
--
--
--
--
--
+
+# Pontos importantes
+
+- Criar uma migration yarn prisma migrate dev
+- Desabilitar a opção "strict":true no tsconfig.json
+- Para poder habilitar as types criadas por nós devemos habilitar a opção "typeroots"[ e passar o caminho aqui]
 -
 -
 -
